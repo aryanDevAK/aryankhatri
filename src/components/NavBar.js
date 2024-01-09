@@ -1,4 +1,6 @@
 import React from 'react'
+import { Logo } from './Logo';
+import "../components-css/Logo.css"
 
 export const NavBar = () => {
   const [about, experience, projects, contact] = ["About", "Experience", "Projects", "Contact"]
@@ -15,7 +17,7 @@ export const NavBar = () => {
     <div>
       {/* Desktop Navigation */}
       <nav className='desktop-nav' id='desktop-nav'>
-        <span className='logo'>{name.toUpperCase()}</span>
+        <span className='logo'><Logo/></span>
         <div>
           <ul className='nav-links'>
             <li><a href='/'>{about}</a></li>

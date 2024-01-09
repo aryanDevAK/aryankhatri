@@ -9,6 +9,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  /* background-color: blue; */
 }
 
 .nav-links {
@@ -30,10 +31,10 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
+/* .logo {
   font-size: 2rem;
-}
+} */
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
 }

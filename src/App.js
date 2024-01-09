@@ -3,7 +3,7 @@ import "./MediaQueries/MediaQueries.css"
 import "./App.css"
 import "./components-css/NavBar.css"
 import "./components-css/ResponsiveNavBar.css"
-// import { ResponsiveNavBar } from './components/ResponsiveNavBar';
+import "./components-css/Logo.css"
 
 function App() {
   return (
